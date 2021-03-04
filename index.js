@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const { runbot } = require('./lib/bot');
 const { setCommands, infoBot, suetaaa, clubnikaBomba } = require('./lib/bot-cmds');
 
