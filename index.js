@@ -1,8 +1,11 @@
 const { runbot } = require('./lib/bot');
-const { setCommands } = require('./lib/bot-cmds');
+const { setCommands, infoBot, suetaaa, clubnikaBomba } = require('./lib/bot-cmds');
 
 async function start() {
     try {
+        clubnikaBomba();
+        suetaaa();
+        infoBot();
         setCommands();
         await runbot();
     } catch (error) {
